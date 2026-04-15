@@ -1,0 +1,3 @@
+# Rich is used for clean UI and display.
+
+rich
