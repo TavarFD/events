@@ -278,7 +278,7 @@ def manage_events():
         else:
             console.print("[red]Invalid choice.[/red]")
 
-# REGISTRATION & CHECK-IN 
+# REGISTRATION
 def register_attendee():
     if not events:
         console.print("[yellow]No events available.[/yellow]")
@@ -326,6 +326,7 @@ def cancel_registration():
     else:
         console.print("[red]Name not found.[/red]")
 
+# CHECK-IN
 def check_in_attendee():
     if not events:
         console.print("[yellow]No events available.[/yellow]")
