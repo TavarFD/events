@@ -14,7 +14,10 @@
         "location": "C2",
         "capacity": 25,
         "attendees": [
-            "Tavar"
+            "Tavar",
+            "Ajahni",
+            "Javon",
+            "Kaden"
         ],
         "checked_in": [
             "Tavar"
@@ -31,5 +34,13 @@
         "attendees": [],
         "checked_in": [],
         "seats": {}
+    },
+    "Football Competition": {
+        "date": "17/04/2026",
+        "time": "08:00",
+        "location": "Utech Field",
+        "capacity": 500,
+        "attendees": [],
+        "checked_in": []
     }
 }
