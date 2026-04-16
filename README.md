@@ -184,10 +184,10 @@ Careful handling of dictionary keys is necessary when modifying them.
 We used Claude as an assistant while developing this project.
 
 The AI was used for the following types of prompts and queries:
-- "Help improve the structure of the event management code"
+- "Explain syntax and help improve the structure of the event management code"
 - "How to sort events by date in a dictionary and display them in a table"
 - "Troubleshoot and assist with specific bugs, (example, where renaming an event breaks other edits in the same session)"
-- "How to create clean aligned tables for a dashboard using the rich library"
+- "How to create tables for a dashboard using the rich library, and integrate rich methods/functions into existing code"
 - "Explain how to save and load data using a JSON file"
 
 We carefully reviewed every suggestion, tested the code, made necessary modifications, and ensured the logic worked correctly. For example, we manually verified the event renaming and editing functionality, adjusted the dashboard sorting, and confirmed all input validations. 
