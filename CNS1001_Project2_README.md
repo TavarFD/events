@@ -3,10 +3,10 @@
 # Date: April 17, 2026
 # Lecturer: Mr. Sheldon Gordon
 # Group Members:
-    * Tavar Foster-Davis (2501913)
-    * Ajahni Thompson (2503732)
-    * Kaden Faulkner (2501970)
-    * Javon Morgan (2506304)
+    Tavar Foster-Davis (2501913)
+    Ajahni Thompson (2503732)
+    Kaden Faulkner (2501970)
+    Javon Morgan (2506304)
 ---
 
 ## Problem Statement
