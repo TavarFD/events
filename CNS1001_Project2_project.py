@@ -1,5 +1,17 @@
-# Project 2 - UTech Events Hub
-# Course: CNS1001 - Introduction to Programming
+"""
+Project 2 - UTech Events Hub
+Course: CNS1001 - Introduction to Programming
+Date: April 17, 2026
+Lecturer: Mr. Sheldon H. Gordon
+Group Members:
+    Tavar Foster-Davis  (2501913)
+    Ajahni Thompson     (2503732)
+    Kaden Faulkner      (2501970)
+    Javon Morgan        (2506304)
+"""
+
+
+# IMPORT REQUIRED MODULES
 
 import json
 import os
@@ -11,7 +23,7 @@ from rich.prompt import Prompt
 from rich import box
 from rich.align import Align
 
-# GLOBAL
+# GLOBAL VARIABLES
 events = {}
 console = Console()
 
