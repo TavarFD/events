@@ -11,7 +11,7 @@
 
 ## Problem Statement
 
-Managing events manually can be inefficient, especially when tracking attendees, capacity, and check-ins. This project provides a command-line application that allows users to create and manage events efficiently.
+Managing events manually can be inefficient and tedious, especially when tracking attendees, capacity, and check-ins. This project provides a command-line application that allows users to view, manage, and run reports for events.
 
 The system is designed for students, staff, and administration, that need a simple tool to organize events, track registrations, and monitor attendance.
 
@@ -28,7 +28,7 @@ The UTech Events Hub is a console-based event management system that allows user
 * Generate reports for each event
 
 The program stores data using a JSON file so that event information is saved between sessions. 
-The program includes default/mock data so the dashboard doesnt load blank, this also shows the user the correct input requirements and structure.
+The program includes default/mock data so the dashboard does not load blank, this also shows the user the correct input requirements and structure.
 
 ---
 
@@ -157,7 +157,7 @@ Output includes:
 
 ## Challenges and Lessons Learned
 
-Challenge 1: Designing a clean console interface
+Challenge 1: Designing a clean console interface:
 Using basic print statements made the output difficult to read.
 
 Solution:
@@ -166,7 +166,7 @@ The rich library was used to create structured tables and panels.
 Lesson learned:
 A clear interface improves usability.
 
-Challenge 2: Renaming events while editing
+Challenge 2: Renaming events while editing:
 Renaming an event caused issues when updating other fields.
 
 Solution:
@@ -184,7 +184,7 @@ AI tools (Claude and ChatGPT) were used for:
 * Understanding programming concepts
 * Debugging issues
 * Improving code structure
-* Creating a clean user interface using the rich library.
+* Creating a clean user interface using the rich library
 
 ---
 
