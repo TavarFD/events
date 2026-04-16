@@ -11,9 +11,11 @@
 
 ## Problem Statement
 
-Managing events manually can be inefficient and tedious, especially when tracking attendees, capacity, and check-ins. This project provides a command-line application that allows users to view, manage, and run reports for events.
+At the University of Technology, managing campus events such as career fairs, workshops, seminars, and student club activities is often done manually using spreadsheets, notice boards, or word-of-mouth. This approach often leads to confusion, missed events, inaccurate attendance records, and difficulty in tracking registrations and capacity limits. As a result, many students and staff miss valuable opportunities, while event organisers struggle to efficiently manage registrations and monitor actual attendance.
 
-The system is designed as an all in one, central location, for students, staff, and administration, that need a simple tool to organize events, track registrations, and monitor attendance.
+To address these challenges, this project introduces **UTech Events Hub**, a simple, centralised command-line application designed specifically for the university environment. The system allows users to create and manage events, register attendees, perform check-ins on the day of the event, view a real-time dashboard of upcoming events, and generate detailed attendance reports. All information is automatically saved and persists between sessions, ensuring reliability and ease of use.
+
+The project focuses on event management functionalities that are practical and relevant to UTech students, lecturers, and administrators, providing a feasible and complete solution to improve event organisation and participation on campus.
 
 ---
 
@@ -179,12 +181,18 @@ Careful handling of dictionary keys is necessary when modifying them.
 
 ## AI Assistance Disclosure
 
-AI tools (Claude and ChatGPT) were used for:
+We used Claude as an assistant while developing this project.
 
-* Understanding programming concepts
-* Debugging issues
-* Improving code structure
-* Creating a clean user interface using the rich library
+The AI was used for the following types of prompts and queries:
+- "Help improve the structure of the event management code"
+- "How to sort events by date in a dictionary and display them in a table"
+- "Troubleshoot and assist with specific bugs, (example, where renaming an event breaks other edits in the same session)"
+- "How to create clean aligned tables for a dashboard using the rich library"
+- "Explain how to save and load data using a JSON file"
+
+We carefully reviewed every suggestion, tested the code, made necessary modifications, and ensured the logic worked correctly. For example, we manually verified the event renaming and editing functionality, adjusted the dashboard sorting, and confirmed all input validations. 
+
+The final code, including the data structure, validation logic, file handling, and overall program flow, reflects our own understanding. We are able to explain the code during the demonstration. AI was used primarily as a learning and debugging assistant.
 
 ---
 
