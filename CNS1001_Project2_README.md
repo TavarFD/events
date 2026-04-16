@@ -13,7 +13,7 @@
 
 Managing events manually can be inefficient and tedious, especially when tracking attendees, capacity, and check-ins. This project provides a command-line application that allows users to view, manage, and run reports for events.
 
-The system is designed for students, staff, and administration, that need a simple tool to organize events, track registrations, and monitor attendance.
+The system is designed as an all in one, central location, for students, staff, and administration, that need a simple tool to organize events, track registrations, and monitor attendance.
 
 ---
 
