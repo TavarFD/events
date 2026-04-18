@@ -23,6 +23,14 @@ from rich.prompt import Prompt
 from rich import box
 from rich.align import Align
 
+import sys
+
+def get_data_file():
+    if getattr(sys, 'frozen', False):
+        return os.path.join(os.path.dirname(sys.executable), "events_data.json")
+    else:
+        return os.path.join(os.path.dirname(__file__), "events_data.json")
+    
 # GLOBAL VARIABLES
 events = {}
 console = Console()
@@ -30,16 +38,19 @@ console = Console()
 # SAVE / LOAD
 def save_data():
     try:
-        with open("events_data.json", "w") as f:
-            json.dump(events, f, indent=4)
+        file_path = get_data_file()
+        with open(file_path, "w") as f:
+            json.dump(events, f)
     except Exception as e:
         console.print(f"[red]Error saving data: {e}[/red]")
 
 def load_data():
     global events
-    if os.path.exists("events_data.json"):
+    file_path = get_data_file()
+
+    if os.path.exists(file_path):
         try:
-            with open("events_data.json", "r") as f:
+            with open(file_path, "r") as f:
                 events = json.load(f)
             console.print("[green]Saved events loaded.[/green]")
         except Exception as e:
