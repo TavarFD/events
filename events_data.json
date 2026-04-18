@@ -17,10 +17,12 @@
             "Tavar",
             "Ajahni",
             "Javon",
-            "Kaden"
+            "Kaden",
+            "John"
         ],
         "checked_in": [
-            "Tavar"
+            "Tavar",
+            "John"
         ],
         "seats": {
             "Tavar": 1
@@ -35,11 +37,11 @@
         "checked_in": [],
         "seats": {}
     },
-    "Football Competition": {
-        "date": "17/04/2026",
-        "time": "08:00",
-        "location": "Utech Field",
-        "capacity": 500,
+    "Coding Bootcamp": {
+        "date": "18/04/2026",
+        "time": "12:00",
+        "location": "LT48",
+        "capacity": 200,
         "attendees": [],
         "checked_in": []
     }

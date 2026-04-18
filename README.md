@@ -181,10 +181,11 @@ Careful handling of dictionary keys is necessary when modifying them.
 
 ## AI Assistance Disclosure
 
-We used Claude as an assistant while developing this project.
+We used Claude as an assistant while developing this project, mainly for explaining coding concepts and syntax, debugginng, and implementing the rich library into our already working code. We wanted a more user-friendly and visually appealing interface for our program, and after some research we decided using rich was the best option. We also needed additional assistance with the JSON file handling and other issues listed below:
 
-The AI was used for the following types of prompts and queries:
+AI was used for the following types of prompts and queries:
 - "Explain syntax and help improve the structure of the event management code"
+- "Explan specific programming concepts and how to implement them"
 - "How to sort events by date in a dictionary and display them in a table"
 - "Troubleshoot and assist with specific bugs, (example, where renaming an event breaks other edits in the same session)"
 - "How to create tables for a dashboard using the rich library, and integrate rich methods/functions into existing code"
