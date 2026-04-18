@@ -185,7 +185,7 @@ We used Claude as an assistant while developing this project, mainly for explain
 
 AI was used for the following types of prompts and queries:
 - "Explain syntax and help improve the structure of the event management code"
-- "Explan specific programming concepts and how to implement them"
+- "Explain specific programming concepts and how to implement them"
 - "How to sort events by date in a dictionary and display them in a table"
 - "Troubleshoot and assist with specific bugs, (example, where renaming an event breaks other edits in the same session)"
 - "How to create tables for a dashboard using the rich library, and integrate rich methods/functions into existing code"
